@@ -78,3 +78,9 @@ select{
     background-position-y:calc(100% - 20px);
 
 }
+.footer{
+    text-align: center;
+    color: #9a9a9a;
+    padding: 10px 0 20px;
+
+}
