@@ -1,25 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Text to Speach Converter - Madhu Veer</title>
+    <title>Text to Speech Converter - Madhu Veer</title>
     <link rel="stylesheet" href="style.css">
-    
 </head>
 <body>
     <div class="hero">
-        <h1>text to speach <span>Converter</span></h1> 
-        <textarea name="placeholder" id="write anything here..."></textarea>
+        <h1>Text to Speech <span>Converter</span></h1> 
+        <textarea id="textToSpeechInput" placeholder="Write anything here..."></textarea>
         <div class="row">
-            <select></select>
-            <button>  Listen</button>
-        </div>
+            <select id="voiceSelect"></select>
+            <button id="listenButton">Listen</button>
+        
+             <a id="downloadButton" style="display: none" download="audio.mp3">Download</a>
+       
+              </div>
     </div>
-<script src="script.js"></script>
-
-
-
-
+    <script src="script.js"></script>
 </body>
 </html>
